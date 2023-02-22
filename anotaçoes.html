@@ -38,7 +38,10 @@
         <ol>lista ordenada-com numero</ol>
         <li>item da lista</li>
         <!--como carregar uma pagina dentro do meu site  sem as bordas-->
-        <iframes style="border: none;" src="link da pagina ou caminho" name="Meu iframe"  title="YouTube video player" ></iframes>
+        <iframes style="border: none;" src="link da pagina ou caminho" name="Meu iframe"  title="YouTube video player" >
+        </iframes>
+        <form>formulario, e dentro da tag formulario bote um <!--<input type="e escolha o tipo">--></form>
+        <label>legenda para o nome.</label>
     </div>
     <!--demo de uma tabela!
    <table width="100%" border="1" style="text-align: center;" > -como deixar centralizada-
@@ -53,5 +56,68 @@
     <td>210</td>
   </tr>
  </table>-->
+
+
+
+ 
+ <form>
+
+  <!--legenda para o email-->
+  <label for="Email">Email</label>
+
+  <!--campo input do type email-->
+  <input id="Email" type="email" placeholder="digite o Email" required> 
+  
+  <hr>
+
+    <!--legenda para senha-->
+  <label for="Senha">Senha</label>
+
+  <!--campo input do type senha-->      <!--required significa não deixar em branco.-->
+  <input id="Senha" type="password" placeholder="Digite uma senha" required> 
+ 
+  <hr>
+ <!--legenda para o texto-->
+ <label for="text">Nome</label>
+
+ <!--campo input do type texto-->
+<input id="text" type="text" placeholder="Digite o seu nome aki" required> 
+<hr>
+<H2>animação</H2>
+<!--como fazer escolha com a bolinha-->
+<input  id="s21" type="radio" name="24h" value="cachorro">
+<label for="s21">cachorro</label>
+<hr>
+<input  id="s22" type="radio" name="24h" value="dog">
+<label for="s22">dog</label>
+<hr>
+<input  id="s23" type="radio" name="24h" value="kat">
+<label for="s23">kat</label>
+<hr>
+<!--como fazer multipla escolha com quadradinho-->
+<input  id="s25" type="checkbox" name="29h" value="cachorro">
+<label for="s25">cachorro</label>
+<hr>
+<input  id="s26" type="checkbox" name="29h" value="dog">
+<label for="s26">dog</label>
+<hr>
+<input  id="s27" type="checkbox" name="29h" value="kat">
+<label for="s27">kat</label>
+<br>
+<hr>
+<!--caixa de opçoes-->
+<select  required name="cores">
+  <option selected disabled value="">selecione uma cor</option>
+  <option  value="vermelho">vermelho</option>
+  <option  value="vermelho">vermelho</option>
+  <option value="blue">blue</option>
+</select>
+<hr>
+<br>
+<!--area de escrita-->
+<textarea required rows="linhas 55" cols="colunas 51" placeholder="digite aki sua mensagem" ></textarea>
+<!--campo input do type submit-enviar -->
+<input type="submit" value="Enviar">
+</form>
 </body>
 </html>
