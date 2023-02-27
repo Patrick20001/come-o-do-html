@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--<style> pra colocar um estilo de css na aba do html</style>-->
+</head>
+<body>
+    <div class="tags html">
+      <header>tag semantica topo</header>
+      <nav>navegação- para colocar no lugar das div de link</nav>
+      <section>seção</section>
+      <footer>rodape</footer>
+      <article>e um artigo</article>
+        <b>Negrito</b>
+        <strong>Negrito (Enfâse)</strong>
+        <i>Italico</i>
+        <u>sublinhado</u>
+        <q>citação curta(coloca entre "" o que ele falou </q>
+        <cite>citação</cite>
+        <hr>linha dividisão
+        <br>pular linha (quebra de linha)
+        <small>Texto pequeno</small>
+        <del>Riscado(deletado)</del>
+        <sup>Superior(Ex:numero exponencial)</sup>
+        <sub>Inferior</sub>
+        <mark>marcação(destaque de texto)</mark>
+        <abbr title="Hyper text markup language">citação(descrição de alguma palavra)</abbr>
+        <address>Endereço(Ex:url,endereço de Email,numero de telefone.)</address>
+        <blockquote>pega uma citação do proprio texto e dar uma margem pro centro.</blockquote>
+        <bdo dir="">direção do texto</bdo>
+        <!- com 2 traço vira um comentario no html.>
+                                <!--usar o target caso queira que a pessoa crie uma aba nova.-->        
+        <a href="http://google.com" target="_blank">ir para o goole</a>
+                  <!--link da imagem ou caminho,-->                               
+        <img src="https://t2.tudocdn.net/614735" alt="descrição da imagem">
+        <table>tabelas</table>
+        <tr>uma linha na tabela , são os primeiros e são titulos das colunas</tr>
+        <th>uma coluna na tabela</th>
+        <td>dado da coluna</td>
+        <ul>lista não ordenada- e com ponto</ul>
+        <ol>lista ordenada-com numero</ol>
+        <li>item da lista</li>
+        <!--como carregar uma pagina dentro do meu site  sem as bordas-->
+        <iframes style="border: none;" src="link da pagina ou caminho" name="Meu iframe"  title="YouTube video player" >
+        </iframes>
+        <form>formulario, e dentro da tag formulario bote um <!--<input type="e escolha o tipo">--></form>
+        <label>legenda para o nome.</label>
+    </div>
+    <!--demo de uma tabela!
+   <table width="100%" border="1" style="text-align: center;" > -como deixar centralizada-
+  <tr>
+    <th>nome</th>
+    <th>Idade</th>
+    <th>peso</th>
+  </tr>
+  <tr>
+    <td>Patrick</td>
+    <td>22</td>
+    <td>210</td>
+  </tr>
+ </table>-->
+
+
+
+ 
+ <form>
+
+  <!--legenda para o email-->
+  <label for="Email">Email</label>
+
+  <!--campo input do type email-->
+  <input id="Email" type="email" placeholder="digite o Email" required> 
+  
+  <hr>
+
+    <!--legenda para senha-->
+  <label for="Senha">Senha</label>
+
+  <!--campo input do type senha-->      <!--required significa não deixar em branco.-->
+  <input id="Senha" type="password" placeholder="Digite uma senha" required> 
+ 
+  <hr>
+ <!--legenda para o texto-->
+ <label for="text">Nome</label>
+
+ <!--campo input do type texto-->
+<input id="text" type="text" placeholder="Digite o seu nome aki" required> 
+<hr>
+<H2>animação</H2>
+<!--como fazer escolha com a bolinha-->
+<input  id="s21" type="radio" name="24h" value="cachorro">
+<label for="s21">cachorro</label>
+<hr>
+<input  id="s22" type="radio" name="24h" value="dog">
+<label for="s22">dog</label>
+<hr>
+<input  id="s23" type="radio" name="24h" value="kat">
+<label for="s23">kat</label>
+<hr>
+<!--como fazer multipla escolha com quadradinho-->
+<input  id="s25" type="checkbox" name="29h" value="cachorro">
+<label for="s25">cachorro</label>
+<hr>
+<input  id="s26" type="checkbox" name="29h" value="dog">
+<label for="s26">dog</label>
+<hr>
+<input  id="s27" type="checkbox" name="29h" value="kat">
+<label for="s27">kat</label>
+<br>
+
+<hr>
+<!--caixa de opçoes-->
+<select  required name="cores">
+  <option selected disabled value="">selecione uma cor</option>
+  <option  value="vermelho">vermelho</option>
+  <option  value="vermelho">vermelho</option>
+  <option value="blue">blue</option>
+</select>
+<hr>
+<br>
+<!--area de escrita-->
+<textarea required rows="linhas 55" cols="colunas 51" placeholder="digite aki sua mensagem" ></textarea>
+<hr>
+<!--comando para colocar um audio no site e bloquear o dowload-->
+<audio controls controLslist="nodownload">
+  <source src="audio/MC Ryan SP - Poesia Acústica 11 (Status- Legendado).mp3" type="audio/mpeg">
+</audio>
+<hr>
+<!--tag video-->
+<video poster="img/72dc1e29715db2a391f6ae68b1cd836d.jpg" width="100%" height="50%" autoplay controls>
+  <source src="video/videoplayback.mp4" type="video/mp4">
+</video>
+<!--campo input do type submit-enviar -->
+<input type="submit" value="Enviar">
+</form>
+
+</body>
+</html>
