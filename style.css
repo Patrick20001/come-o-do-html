@@ -1,8 +1,21 @@
-body{
-  background: rgb(70,130,180);
+*{
+  text-align: center;
+  
 }
 
-h1{
-  color: blueviolet;
-  font-size: 50px;
+body{
+  background-image:url(./img/pexels-fwstudio-129731.jpg);
+  
 }
+p, h1{
+  background-size: cover;
+  color: white;
+  background-image: url(./img/pexels-pixabay-220182.jpg); 
+  background-repeat: no-repeat;
+}
+
+.bolo{
+ 
+  color: white;
+  height: 300px;
+}zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
