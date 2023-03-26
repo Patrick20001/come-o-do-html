@@ -1,21 +1,26 @@
 *{
-  text-align: center;
-  
+  text-align: center;  
 }
 
 body{
-  background-image:url(./img/pexels-fwstudio-129731.jpg);
-  
-}
-p, h1{
-  background-size: cover;
-  color: white;
-  background-image: url(./img/pexels-pixabay-220182.jpg); 
-  background-repeat: no-repeat;
+  background: blueviolet url(./img/blackboard-gfbea1c228_1280.png) no-repeat;
 }
 
-.bolo{
- 
-  color: white;
-  height: 300px;
-}zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+h1{
+  background: rgba(21, 18, 18, 0.777);
+  color:white;
+  border-radius:40px;
+  border-top: 5px solid red;
+  border-bottom: 5px solid blue;
+  margin:38px 75px 6px 95px;  
+  padding:15px ;
+}
+
+p{
+  background: burlywood;
+  border-radius:50px;
+  border-top: 9px solid purple;
+  border-bottom: 9px solid paleturquoise;
+  margin:12px 79px 6px 95px;  
+  padding:10px ;
+}
