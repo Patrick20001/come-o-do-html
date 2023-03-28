@@ -1,5 +1,6 @@
 *{
-  text-align: center;  
+  text-align: center;
+  
 }
 
 body{
@@ -14,13 +15,32 @@ h1{
   border-bottom: 5px solid blue;
   margin:38px 75px 6px 95px;  
   padding:15px ;
+  
 }
 
-p{
+.texto-lorem{
   background: burlywood;
   border-radius:50px;
   border-top: 9px solid purple;
   border-bottom: 9px solid paleturquoise;
   margin:12px 79px 6px 95px;  
   padding:10px ;
+  text-align: justify;
+ 
+}
+
+button{
+  background-color: red;
+  margin: 10px;
+  padding: 10px;
+  max-width: 50px;
+}
+
+button:hover{
+  background: black;
+  color: white;
+  margin: 30px;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 50px;
 }
